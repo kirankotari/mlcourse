@@ -1,10 +1,34 @@
 from flask import Flask, render_template, redirect, url_for, request
 from collections import namedtuple
+from flask_sqlalchemy import SQLAlchemy
+
 
 app = Flask(__name__)
+app.config['SQLALCHEMY DATABASE_URI'] = 'postgres://postgres:123@localhost/py_sweater'
+db = SQLAlchemy(app)
 
-Message = namedtuple('Message', 'text tag')
-messages = []
+class Message(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    text = db.Column(db.String(1024), nullable=False)
+
+    def __init__(self, text, tags):
+        self.text = text.strip()
+        self.tags = [
+            Tag(text=tag.strip()) for tag in tags.split(',')
+        ]
+
+
+class Tag(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    text = db.Column(db.String(32), nullable=False)
+
+    message_id = db.Column(db.Integer, db.ForeignKey('message.id'), nullable=False)
+    message = db.relationship('Message', backref=db.backref('tags', lazy=True))
+
+
+db.create_all()
+#Message = namedtuple('Message', 'text tag')
+#messages = []
 
 
 @app.route('/', methods=['GET'])
@@ -14,17 +38,17 @@ def hello_world():
 
 @app.route('/main', methods=['GET'])
 def main():
-    return render_template('main.html', messages=messages)
+    return render_template('main.html', messages=Message.query.all())
 
 
 @app.route('/add_message', methods=['POST'])
 def add_message():
     text = request.form['text']
     tag = request.form['tag']
-
-    messages.append(Message(text, tag))
+    db.session.add(Message(text, tag))
+    db.session.commit()
+    #messages.append(Message(text, tag))
     return redirect(url_for('main'))
-
 
 
 
