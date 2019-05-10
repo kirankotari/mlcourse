@@ -1,16 +1,24 @@
-public class Mark {
-    private int mark = 3;
-    public static int coeff = 5;
+public class Mark <T extends Number>{
+    public T mark;
 
-    public double getResult() {
-        return (double)coeff*mark/100;
+    public Mark(T value) {
+        mark = value;
     }
-    public static void setCoeffFloat(float c) {
-        coeff = (int)coeff*c;
+    public T getMark() {
+        return mark;
     }
-    public void setMark(int mark) {
-        this.mark = mark;
+    public int roundMark() {
+        return Math.round(mark.floatValue());
     }
-    Mark ob1 = new Mark();
-    Mark ob2 = new Mark();
+    public boolean sameAny(Mark<?> ob) {
+        return roundMark() == ob.roundMark();
+    }
+    public boolean same(Mark<T> ob) {
+        return getMark() == ob.getMark();
+    }
+    class Runner {
+        public static void main(String[] args) {
+            
+        }
+    }
 }
