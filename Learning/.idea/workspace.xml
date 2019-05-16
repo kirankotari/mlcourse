@@ -3,53 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd074359-939f-426d-8f9e-bf5c4d1865d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/BaseCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/CarRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/DynDispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/OptionalCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Phrase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/RequestForCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/RunFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/SteeringWheel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Text.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Wheel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/Word.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BaseCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DemoSimpleClone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynDispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptionalCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OptionalCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Phrase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RepairingFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RequestForCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RequestForCustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RunFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SteeringWheel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Text.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wheel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Word.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractfactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstractfactory/WhiteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstractfactory/WhiteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/decorator/BusDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/BusDriver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,15 +18,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/implementor/Color.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/implementor/YellowColor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -80,23 +25,6 @@
               <folding>
                 <element signature="e#90#91#0" expanded="true" />
                 <element signature="e#116#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/abstraction/Shape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/decorator/DriverDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="e#136#137#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
@@ -171,17 +99,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/decorator/BusDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/decorator/CarDriverAndForwardingAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/decorator/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -202,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Request.java" />
-        <option value="$PROJECT_DIR$/src/RequestForCustomer.java" />
         <option value="$PROJECT_DIR$/src/Vector.java" />
         <option value="$PROJECT_DIR$/src/BaseCourse.java" />
         <option value="$PROJECT_DIR$/src/OptionalCourse.java" />
@@ -253,6 +203,8 @@
         <option value="$PROJECT_DIR$/src/decorator/DriverDecorator.java" />
         <option value="$PROJECT_DIR$/src/decorator/CarDriver.java" />
         <option value="$PROJECT_DIR$/src/decorator/BusDriver.java" />
+        <option value="$PROJECT_DIR$/src/decorator/CarDriverAndForwardingAgent.java" />
+        <option value="$PROJECT_DIR$/src/decorator/Main.java" />
       </list>
     </option>
   </component>
@@ -394,14 +346,14 @@
       <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26972282" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3434453" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3434453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50054526" side_tool="true" weight="0.33150986" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" weight="0.3336945" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945474" visible="true" weight="0.3336945" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,8 +394,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/FirstProgram/ISolver.class" />
-    <entry file="file://$PROJECT_DIR$/src/ISolver.java" />
     <entry file="file://$PROJECT_DIR$/src/TaskString.java" />
     <entry file="file://$PROJECT_DIR$/src/TaskOne.java" />
     <entry file="file://$PROJECT_DIR$/src/Optional.java" />
@@ -776,17 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/implementor/YellowColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/abstraction/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -809,12 +748,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/implementor/YellowColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bridge/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/DriverDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -826,6 +787,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/CarDriverAndForwardingAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/BusDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/decorator/CarDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -833,27 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/DriverDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/decorator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/BusDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
