@@ -6,16 +6,12 @@ public class BusDriver extends DriverDecorator {
         super(driver);
     }
 
-    public void do() {
-        driver.do();
-    }
-
     private void addedBehaviorOne() {
         System.out.println("I am bus driver");
     }
 
-    public void do() {
-        driver.do();
+    public void doing() {
+        driver.doing();
         addedBehaviorOne();
     }
 }

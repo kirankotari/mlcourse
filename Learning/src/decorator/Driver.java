@@ -1,5 +1,5 @@
 package decorator;
 
 public abstract class Driver {
-    public abstract void do();
+    public abstract void doing();
 }

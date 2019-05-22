@@ -1,12 +1,12 @@
 package decorator;
 
-public abstract class DriverDecorator {
+public abstract class DriverDecorator extends Driver {
     protected Driver driver;
 
     public DriverDecorator(Driver driver) {
         this.driver = driver;
     }
-    public void do() {
-        driver.do();
+    public void doing() {
+        driver.doing();
     }
 }

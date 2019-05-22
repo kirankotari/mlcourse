@@ -1,8 +1,7 @@
 package decorator;
 
 public class Main {
-
-    public static void main(String args[]){
+    public static void main(String args[]) {
         Driver carDriver = new CarDriver();
         Main runner = new Main();
         runner.doDrive(carDriver);
@@ -10,8 +9,7 @@ public class Main {
         runner.doDrive(new CarDriverAndForwardingAgent(carDriver));
     }
 
-    public void doDrive(Driver driver){
-        driver.do();
+    public void doDrive(Driver driver) {
+        driver.doing();
     }
-
 }
