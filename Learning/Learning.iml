@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/out/production/FirstProgram" />
     <output-test url="file://$MODULE_DIR$/out/test/FirstProgram" />
     <exclude-output />
@@ -30,7 +30,7 @@
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <content url="file://$MODULE_DIR$/out/production/FirstProgram" />
-    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mysql-connector-java-8.0.16" level="project" />
   </component>
