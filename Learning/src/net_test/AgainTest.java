@@ -1,15 +1,12 @@
 package net_test;
 
 import java.io.File;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class AgainTest {
 
     public static void main(String[] args) {
-        File currentDir = new File("C:/");
+        File currentDir = new File("C:\\Users\\Aliaksandr_Taranishy\\Desktop\\mlcourse.ai\\Learning");
         if (currentDir != null) {
             displayDirectoryContents(currentDir);
         }
@@ -19,20 +16,19 @@ public class AgainTest {
         File[] files = dir.listFiles();
         for (File file : files) {
                 try {
-                    if (file.) {
+                    if (file.isDirectory()) {
 
-//                        displayDirectoryContents(file);
-//                        Connection cn = ConnectorDB.getConnection();
-//                        String query = "INSERT INTO filesystem(dirname)" + " VALUES(?)";
-//                        PreparedStatement pr = cn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
-//                        pr.setString(1, file.getName());
-//                        pr.execute();
+                           displayDirectoryContents(file);
+                            Connection cn = ConnectorDB.getConnection();
+                            String query = "INSERT INTO filesystem(dirname)" + " VALUES(?)";
+                            PreparedStatement pr = cn.prepareStatement(query);
+                            pr.setString(1, file.getName());
+                            pr.execute();
                     }
-                }
-//                catch (SQLException e) {
-//                    e.getMessage();
-//                }
-             catch (Exception ignore) {
+                } catch (SQLException e) {
+                    e.getMessage();
+
+                } catch (Exception ignore) {
                 continue;
             }
         }
