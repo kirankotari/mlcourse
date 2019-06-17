@@ -6,10 +6,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -33,6 +30,10 @@ public class FilePush {
                     Connection cn = ConnectorDB.getConnection();
                     String query = "INSERT INTO files(dirname)" + " VALUES(?)";
                     PreparedStatement pr = cn.prepareStatement(query,Statement.RETURN_GENERATED_KEYS);
+                    ResultSet result = pr.getGeneratedKeys();
+                    if(result.next()) {
+
+                    }
                     pr.setString(1, f.getName());
 //                    pr.setInt(2,id);pr.setInt(2,id);pr.setInt(2,id);
                     pr.execute();

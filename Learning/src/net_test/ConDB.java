@@ -1,10 +1,12 @@
 package net_test;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class ConnectorDB {
+public class ConDB {
     public static Connection getConnection() throws SQLException {
         ResourceBundle resource = ResourceBundle.getBundle("net_test.database", Locale.getDefault());
         String url = resource.getString("db.url");
@@ -15,9 +17,13 @@ public class ConnectorDB {
     }
 
     public static void main(String[] args) {
+//        String selectTableSql = "SELECT * from subcatalog";
+//        Statement statement = null;
         try {
             Connection cn = ConnectorDB.getConnection();
             System.out.println("success");
+//            statement = cn.createStatement();
+//            ResultSet rs = statement.executeQuery(selectTableSql);
         } catch (SQLException e) {
             e.printStackTrace();
         }
