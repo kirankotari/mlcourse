@@ -7,8 +7,8 @@ public class CarDriverAndForwardingAgent extends DriverDecorator {
     private void addedBehaviorTwo() {
         System.out.println("I am forwarding Agent");
     }
-    public void do() {
-        driver.do();
+    public void doing() {
+        driver.doing();
         addedBehaviorTwo();
     }
 }

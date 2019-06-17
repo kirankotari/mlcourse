@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Ruinner",
+            "request": "launch",
+            "mainClass": "chapter.Ruinner",
+            "projectName": "Learning_9a2e0aa0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Runner",
+            "request": "launch",
+            "mainClass": "chapter.Runner",
+            "projectName": "Learning_9a2e0aa0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Runner",
+            "request": "launch",
+            "mainClass": "studenty.Runner",
+            "projectName": "Learning_9a2e0aa0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoSerialization",
+            "request": "launch",
+            "mainClass": "studenty.DemoSerialization",
+            "projectName": "Learning_9a2e0aa0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TaskOne",
             "request": "launch",
             "mainClass": "TaskOne"

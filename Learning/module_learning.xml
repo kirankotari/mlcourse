@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_learning" default="compile.module.learning">
+  <dirname property="module.learning.basedir" file="${ant.file.module_learning}"/>
+  
+  <property name="module.jdk.home.learning" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.learning" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.learning" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.learning" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="learning.output.dir" value="${module.learning.basedir}/out/production/FirstProgram"/>
+  <property name="learning.testoutput.dir" value="${module.learning.basedir}/out/production/FirstProgram"/>
+  
+  <path id="learning.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="learning.module.production.classpath">
+    <path refid="${module.jdk.classpath.learning}"/>
+  </path>
+  
+  <path id="learning.runtime.production.module.classpath">
+    <pathelement location="${learning.output.dir}"/>
+  </path>
+  
+  <path id="learning.module.classpath">
+    <path refid="${module.jdk.classpath.learning}"/>
+    <pathelement location="${learning.output.dir}"/>
+  </path>
+  
+  <path id="learning.runtime.module.classpath">
+    <pathelement location="${learning.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.learning">
+    <patternset refid="ignored.files"/>
+    <exclude name="bridge/**"/>
+    <exclude name="builder/**"/>
+    <exclude name="chapt09/**"/>
+    <exclude name="command/**"/>
+    <exclude name="command/Main/**"/>
+    <exclude name="command/invoker/**"/>
+    <exclude name="command/receiver/**"/>
+    <exclude name="factory/**"/>
+    <exclude name="strategy/**"/>
+    <exclude name="decorator/**"/>
+    <exclude name="singleton/**"/>
+    <exclude name="abstraction/**"/>
+    <exclude name="implementor/**"/>
+    <exclude name="garbage_test/**"/>
+    <exclude name="abstractfactory/**"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.learning">
+    <patternset refid="excluded.from.module.learning"/>
+  </patternset>
+  
+  <path id="learning.module.sourcepath">
+    <dirset dir="${module.learning.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.learning" depends="compile.module.learning.production,compile.module.learning.tests" description="Compile module Learning"/>
+  
+  <target name="compile.module.learning.production" depends="register.custom.compilers" description="Compile module Learning; production classes">
+    <mkdir dir="${learning.output.dir}"/>
+    <javac2 destdir="${learning.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.learning}/javac">
+      <compilerarg line="${compiler.args.learning}"/>
+      <bootclasspath refid="learning.module.bootclasspath"/>
+      <classpath refid="learning.module.production.classpath"/>
+      <src refid="learning.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.learning"/>
+    </javac2>
+    
+    <copy todir="${learning.output.dir}">
+      <fileset dir="${module.learning.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.learning.tests" depends="register.custom.compilers,compile.module.learning.production" description="compile module Learning; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.learning" description="cleanup module">
+    <delete dir="${learning.output.dir}"/>
+    <delete dir="${learning.testoutput.dir}"/>
+  </target>
+</project>
