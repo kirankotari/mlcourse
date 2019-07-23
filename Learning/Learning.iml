@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/production/FirstProgram" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/DAOModel" />
+      <excludeFolder url="file://$MODULE_DIR$/src/TrainServlet" />
       <excludeFolder url="file://$MODULE_DIR$/src/WrapConn" />
       <excludeFolder url="file://$MODULE_DIR$/src/abstractfactory" />
       <excludeFolder url="file://$MODULE_DIR$/src/abstraction" />
@@ -30,8 +31,9 @@
     </content>
     <content url="file://$MODULE_DIR$/out" />
     <content url="file://$MODULE_DIR$/out/production/FirstProgram" />
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="mysql-connector-java-8.0.16" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.16" level="project" />
+    <orderEntry type="library" name="apache-tomcat-8.5" level="project" />
   </component>
 </module>

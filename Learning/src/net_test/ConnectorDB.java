@@ -19,6 +19,7 @@ public class ConnectorDB {
             Connection cn = ConnectorDB.getConnection();
             System.out.println("success");
         } catch (SQLException e) {
+            System.out.println("gg");
             e.printStackTrace();
         }
     }
