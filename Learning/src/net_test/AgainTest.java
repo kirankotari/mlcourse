@@ -51,6 +51,10 @@ public class AgainTest {
                 if (rq.next()) {
                         id = rq.getInt(1);
                 }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> refs/remotes/origin/master
             }
         } catch (SQLException e) {
             e.getMessage();

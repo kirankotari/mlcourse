@@ -4,8 +4,18 @@
     <list default="true" id="cd074359-939f-426d-8f9e-bf5c4d1865d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/FolderTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProgram/FolderTree/Main.class" afterDir="false" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/Mark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mark.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/decorator/BusDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/BusDriver.java" afterDir="false" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+=======
+>>>>>>> refs/remotes/origin/master
       <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/net_test/AgainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProgram/net_test/AgainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/net_test/ConDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProgram/net_test/ConDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FirstProgram/net_test/ConnectorDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstProgram/net_test/ConnectorDB.class" afterDir="false" />
@@ -22,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/src/net_test/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/net_test/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net_test/db.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../catalog_angular" beforeDir="false" afterPath="$PROJECT_DIR$/../catalog_angular" afterDir="false" />
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +50,57 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/net_test/AgainTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/implementor/YellowColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="544">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+=======
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/abstraction/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="340">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+=======
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/net_test/Main2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
+>>>>>>> refs/remotes/origin/master
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +114,13 @@
             <state relative-caret-position="280">
               <caret line="38" column="73" lean-forward="true" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
               <folding>
+<<<<<<< HEAD
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+=======
                 <element signature="imports" expanded="true" />
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
               </folding>
             </state>
           </provider>
@@ -181,6 +245,14 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+=======
+=======
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -189,22 +261,39 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="2253" />
     <option name="y" value="185" />
     <option name="width" value="1036" />
     <option name="height" value="773" />
+=======
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+>>>>>>> refs/remotes/origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+>>>>>>> refs/remotes/origin/master
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +314,19 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
+>>>>>>> refs/remotes/origin/master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +532,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="2253" y="185" width="1036" height="773" extended-state="1" />
+=======
+<<<<<<< HEAD
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+<<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.404814" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26972282" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+>>>>>>> refs/remotes/origin/master
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -439,6 +562,7 @@
       <window_info id="Favorites" order="4" sideWeight="0.5024233" side_tool="true" weight="0.13965885" />
       <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49297753" visible="true" weight="0.35963115" />
       <window_info id="Structure" order="6" sideWeight="0.5070225" side_tool="true" weight="0.15565032" />
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3261105" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2234375" />
@@ -493,6 +617,88 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/security/HashTableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="544">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+=======
+        <state relative-caret-position="374">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
+          <folding>
+            <element signature="e#166#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/events/MyKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/FirstProgram/chapter/MyApplet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/MyApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/SortItemRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> refs/remotes/origin/master
     <entry file="file://$PROJECT_DIR$/src/chapter/PriorThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -601,11 +807,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/DataBaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="340">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+=======
         <state relative-caret-position="119">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
         </state>
       </provider>
     </entry>
@@ -839,7 +1065,15 @@
         <state relative-caret-position="358">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
+<<<<<<< HEAD
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+>>>>>>> 330a791f4641f20212aa504b179725058f8e953e
+=======
             <element signature="imports" expanded="true" />
+>>>>>>> cd216b8e164f7e1a6379fb00d7b2bf389184749a
           </folding>
         </state>
       </provider>
